@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전기차의 미래 - 홈</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .video-container {
+            display: flex; /* 두 비디오를 가로로 나란히 배치 */
+            justify-content: space-around; /* 공간을 균일하게 배분 */
+            margin: 20px 0; /* 위아래 여백 추가 */
+        }
+        .column {
+            flex: 1; /* 한 열에 대한 flex 비율 */
+            margin: 5px; /* 비디오 간의 여백 */
+        }
+        .button-container {
+            display: flex; /* 버튼 컨테이너를 flex로 설정 */
+            justify-content: center; /* 버튼 중앙 정렬 */
+            margin-top: 20px; /* 버튼 위쪽 여백 추가 */
+        }
+        header {
+            display: flex;
+            align-items: center; /* 수직 중앙 정렬 */
+        }
+        header img {
+            margin-right: 10px; /* 로고와 제목 사이의 여백 */
+            height: 200px; /* 로고의 높이 설정 */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="a79e12d6-c97e-4081-94c9-7d448245ad79.png" alt="로고 이미지"> <!-- 로고 이미지 추가 -->
+        <h1>전기차의 미래</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="definition.html">전기차의 정의</a></li>
+                <li><a href="history.html">전기차의 역사</a></li>
+                <li><a href="pros-cons.html">전기차의 장단점</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="column">
+                <h2>Electric Shock</h2>
+                <p>전기차는 지금부터의 교통수단입니다. 환경을 생각하는 스마트한 선택!</p>
+            </div>
+            <div class="video-container">
+                <div class="column">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/h0IAgkHpU54?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="column">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/q_A_dSZnfWI?feature=shared" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="button-container">
+                <a href="definition.html" class="start-button">시작하기</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 전기차의 미래. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
